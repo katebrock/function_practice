@@ -1,0 +1,49 @@
+function sum(a, b){
+    x= a+b;
+    return x;}
+console.log(sum(2, 3));
+
+
+
+
+
+function avg(a, b, c){
+    x=(a + b + c);
+    z=(x / 3);
+    return z;}
+console.log (avg(3, 4, 5));
+
+
+
+
+function getLength(words){
+    x = words.length;
+    return x;}
+console.log(getLength('whats up'));
+
+
+
+function greaterThan(a , b){
+    if(a<b) {
+        return "true"
+    } else {
+        return "false"
+    }
+}
+console.log(greaterThan(2 , 3));
+
+
+
+
+
+function greet(name){
+    return 'Hello, ' + name + '!'
+}
+console.log(greet('kate'));
+
+
+
+
+function madlib(a, b, c, d){
+    return a + 'brown' + b + 'jumps' + c + 'the' + d}
+console.log(madlib('quick ', ' fox ', ' over ', ' fence'));
